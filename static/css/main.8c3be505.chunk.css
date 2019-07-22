@@ -1,0 +1,2 @@
+.app{display:flex;flex-direction:column;max-width:400px;padding:2rem 1rem}.app-header{align-items:center}.app-header,.search-panel,.todo-list-item{display:flex;justify-content:space-between}.button__group .btn{width:30px;margin:0 5px}.todo-list-item.done .todo-list-item-label{text-decoration:line-through}.todo-list-item.important .todo-list-item-label{font-weight:700;color:#4682b4}.todo-list{margin-top:1rem;display:flex}.add-item{display:flex;justify-content:space-between;margin-top:.5rem}.add-item__input{width:50%}
+/*# sourceMappingURL=main.8c3be505.chunk.css.map */
