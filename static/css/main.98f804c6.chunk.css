@@ -1,0 +1,2 @@
+.app{display:flex;flex-direction:column;max-width:400px;padding:2rem 1rem}.app-header{align-items:center}.app-header,.search-panel,.todo-list-item{display:flex;justify-content:space-between}.button__group .btn{width:30px;margin:0 5px}.todo-list-item-label.done{text-decoration:line-through}.todo-list-item-label.important{font-weight:700;color:#4682b4}.todo-list{margin-top:1rem;display:flex}
+/*# sourceMappingURL=main.98f804c6.chunk.css.map */
