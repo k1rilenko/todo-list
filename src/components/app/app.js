@@ -22,8 +22,6 @@ export default class App extends Component {
     deleteItem = (id) => {
         this.setState(({todoData}) => {
             const idx = todoData.findIndex((el) => el.id === id);
-/*          const before = todoData.slice(0, idx) -> берем все элементы с начала массива до индекса;
-            const after = todoData.slice(idx + 1); -> берем элементы он индекса и до конца массива*/
             const newArr = [...todoData.slice(0, idx), ...todoData.slice(idx + 1)]; 
             return {
                 todoData: newArr
