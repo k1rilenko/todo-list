@@ -1,0 +1,8 @@
+.add-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+.add-item__input {
+    width: 50%;
+}
