@@ -1,11 +1,12 @@
 import React from 'react';
 import './app-header.css';
 import DonePanel from '../done-panel/done-panel';
-const AppHeader = () => {
+
+const AppHeader = ({done,toDo}) => {
     return (
         <div className="app-header">
             <h1>Todo list</h1>
-            <DonePanel />
+            <DonePanel done={done} toDo={toDo} />
         </div>
     )
 };

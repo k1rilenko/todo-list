@@ -1,11 +1,11 @@
 import React from 'react';
 import './done-panel.css';
 
-const DonePanel = () => {
+const DonePanel = ({done,toDo}) => {
     return (
         <div className="done-panel">
-            <span> 1 more to do,</span>
-            <span> 3 done </span>
+            <span> {toDo} more to do,</span>
+            <span> {done} done </span>
         </div>
     )
 };
